@@ -1,0 +1,47 @@
+.App {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+button {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.input-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-space {
+  display: flex;
+  flex-direction: row;
+}
+
+.component-style {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
